@@ -48,6 +48,8 @@ e.g.
 	    }   
     }
 
+
+
 That will specify a input filter which takes in an input of server status (up or down). This works by the ping command. The active says it will be run (if you set this to false it will not be run). The inputs are the servers you wish to monitor (in this case a group of MegNet nodes). The frequency is how often it will be run, in this case it's every 5 seconds. 
 
 Type is a strange one, it's there basically so the server is better at handling the achnologements. The choices currently are:
